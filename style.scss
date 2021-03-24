@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.container {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+[class*="col-"] {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.col-xs-12 , 
+.col-sm-12,
+.col-md-12{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.col-xs-10,
+.col-sm-10,
+.col-md-10{
+    flex: 0 0 83.33333%;
+    max-width: 83.33333%;
+}
+.col-xs-6,
+.col-sm-6,
+.col-md-6{
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.col-xs-2,
+.col-sm-2,
+.col-md-2{
+    flex: 0 0 16.66666%;
+    max-width: 16.66666%;
+}
+.col-md-4{
+    flex: 0 0 32.33332%;
+    max-width: 32.33332%;
+}
+.col-md-3{
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+
+
+@import"./header";
+@import"./section-1";
+@import"./section-2";

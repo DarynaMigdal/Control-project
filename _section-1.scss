@@ -1,0 +1,215 @@
+@media(max-width:767px){
+.col-xs-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.section-1{
+    background-color: #f8fafa;
+}
+.tit{
+        margin-top: 125px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 38px;
+    }
+.inf{
+    text-align: center;
+    margin-top: 17px;
+    font-family: 'Merriweather', serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: #848585;
+    margin-bottom: 135px;
+}
+
+.slider > img {
+    width: 300px;
+}
+.titdo{
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    font-size: 20px; 
+    color: #3e3f3f;
+    line-height: 65px;
+    display: flex;
+    align-items: center;
+}
+
+.text{
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 35px;
+    color: #9c9d9d;
+}
+.slick-dots li.slick-active button:before{
+    color: $color-main
+}
+}
+
+@media(min-width:768px){
+
+.col-xs-12 , 
+.col-sm-12{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+    .section-1{
+        background-color: #f8fafa;
+    }
+    .tit{
+        margin-top: 55px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 38px;
+        }
+    .inf{
+        text-align: center;
+        margin-top: 17px;
+        font-family: 'Merriweather', serif;
+        font-size: 18px;
+        font-weight: normal;
+        color: #848585;
+        margin-bottom: 135px;
+    }
+    
+    .im{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 150px;
+    }
+    .titdo{
+        font-family: 'Merriweather', serif;
+        font-weight: bold;
+        font-size: 20px; 
+        color: #3e3f3f;
+        line-height: 65px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .text{
+        font-family: 'Raleway', sans-serif;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 35px;
+        color: #9c9d9d;
+    }
+    .slick-dots li.slick-active button:before{
+        color: $color-main
+    }
+       
+}
+@media(min-width:992px){
+    .col-md-12{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .col-md-6{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .section-1{
+        background-color: #f8fafa;
+    }
+    .tit{
+            margin-top: 125px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 38px;
+        }
+    .inf{
+        text-align: center;
+        margin-top: 17px;
+        font-family: 'Merriweather', serif;
+        font-size: 18px;
+        font-weight: normal;
+        color: #848585;
+        margin-bottom: 135px;
+    }
+    
+    .im{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 150px;
+    }
+    .titdo{
+        font-family: 'Merriweather', serif;
+        font-weight: bold;
+        font-size: 20px; 
+        color: #3e3f3f;
+        line-height: 65px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .text{
+        font-family: 'Raleway', sans-serif;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 35px;
+        color: #9c9d9d;
+    }
+    .slick-dots li.slick-active button:before{
+        color: $color-main
+    }
+       
+}
+@media(min-width:1200px){
+    .col-md-12{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .col-md-6{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    
+    .section-1{
+        background-color: #f8fafa;
+    }
+    .tit{
+            margin-top: 125px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 38px;
+        }
+    .inf{
+        text-align: center;
+        margin-top: 17px;
+        font-family: 'Merriweather', serif;
+        font-size: 18px;
+        font-weight: normal;
+        color: #848585;
+        margin-bottom: 135px;
+    }
+    
+    .im{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 150px;
+    }
+    .titdo{
+        font-family: 'Merriweather', serif;
+        font-weight: bold;
+        font-size: 20px; 
+        color: #3e3f3f;
+        line-height: 65px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .text{
+        font-family: 'Raleway', sans-serif;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 35px;
+        color: #9c9d9d;
+    }
+    .slick-dots li.slick-active button:before{
+        color: $color-main
+    }
+       
+    
+}

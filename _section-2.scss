@@ -1,0 +1,50 @@
+// @media(max-width:767px){
+
+// @include col ();
+// .banner{
+//     display: flex;
+//     justify-content: space-evenly;
+   
+// }
+// .banner>img{
+//     width: 360px;
+//     height: 360px;
+// }
+// }
+// @media(min-width:768px){
+//     @include col ();
+//     .banner{
+//         display: flex;
+//         justify-content: space-evenly;
+       
+//     }
+//     .banner>img{
+//         width: 360px;
+//         height: 360px;
+//     }
+// }
+
+@media(min-width:992px){
+    .container {
+        max-width: 960px;
+    }
+    @include col ();
+    // .banner{
+    //     display: flex;
+    //     justify-content: space-evenly;
+       
+    // }
+    
+}
+@media(min-width:1200px){
+    .container {
+        max-width: 1170px;
+    }
+    @include col ()
+    // .banner{
+    //     display: flex;
+    //     justify-content: space-evenly;
+       
+    // }
+   
+}
