@@ -15,16 +15,18 @@ $('.slider').slick({
     dots : true,
 })
 
-let blockText = document.querySelectorAll(".block-text")
+// let blockText = document.querySelectorAll(".block-text")
 
 let hiddenBlock = document.querySelectorAll(".hidden-block")
-
+console.log(hiddenBlock)
 
 let btnKnow = document.querySelectorAll(".btn-know")
+console.log(btnKnow)
 
 btnKnow.forEach(btn =>{
     btn.addEventListener("click",showHiddenBlock)
 })
+
 function showHiddenBlock (){
     hiddenBlock.classList.add("show")
     hiddenBlock.classList.remove("hide")
@@ -33,3 +35,5 @@ function showHiddenBlock (){
 function closeBlockText (){
     blockText.classList.add("hide")
 }
+
+
