@@ -2,6 +2,9 @@
 @import"./virables";
 
 @media(max-width:767px){
+
+    @include colxs();
+
     .container {
         width: 100%;
     }
@@ -143,6 +146,7 @@ background-color:  $color-main;
 }
 .btn:hover{
 background-color:  $color-main;
+cursor: pointer;
 }
 
 }
@@ -150,6 +154,7 @@ background-color:  $color-main;
     .container {
         max-width: 720px;
     }
+    @include colsm();
     .header{
     background-color: #eff0f2;
     padding: 65px 0;
@@ -287,12 +292,14 @@ background-color:  $color-main;
 }
 .btn:hover{
 background-color:  $color-main;
+cursor: pointer;
 }
 }
 @media(min-width:992px){
     .container {
         max-width: 960px;
     }
+    @include colmd();
     .header{
     background-color: #eff0f2;
     padding: 65px 0;
@@ -431,6 +438,7 @@ background-color:  $color-main;
 }
 .btn:hover{
 background-color:  $color-main;
+cursor: pointer;
 }
 }
 @media(min-width:1200px){
@@ -438,6 +446,7 @@ background-color:  $color-main;
     .container {
     max-width: 1170px;
     }
+    @include colmd();
     .header{
     background-color: #eff0f2;
     padding: 65px 0;
@@ -548,7 +557,7 @@ flex-direction: column;
     margin-top: 150px;
     margin-bottom: 150px;
     line-height: 55px;
-    text-shadow:3px 2px #a8a9ab26, 3px 3px #a8a9ab26;;
+    text-shadow: 4px 8px 10px rgba(0, 0, 0, 0.24%)
 
 }
 .span {
@@ -576,5 +585,6 @@ background-color:  $color-main;
 }
 .btn:hover{
 background-color:  $color-main;
+cursor: pointer;
 }
 }

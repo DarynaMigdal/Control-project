@@ -1,0 +1,289 @@
+
+@import"./mixins";
+@media(max-width:767px){
+    .container {
+        width: 100%;
+    }
+    @include colxs();
+    .block-team{
+        width: 100%;
+
+        img{
+            width: 100%;
+        }
+       position: relative;
+       
+    }
+
+    .window{
+        position: absolute;
+        top:100px;
+        left: 15px;
+        right: 15px;
+        background-color:$color-main ;
+        text-align: center;
+        box-shadow: 3px 6px 16px rgba(20, 20, 21,  18%);
+       visibility: hidden;
+
+        .team-name {
+            
+            h1{
+            font-family: 'Merriweather', serif;
+            font-size: 20px;
+            font-weight: bold;
+            line-height: 85px;
+            display: inline-block;
+            color: #2b3231;
+        }
+        span{
+            
+         font-weight: normal;
+           color: #767776; 
+           font-family: 'Merriweather', serif;
+           font-style: italic;
+        }
+        }
+        .team-desc{
+            font-size: 16px;
+            font-weight: normal;
+            font-family: 'Raleway',serif;
+            color: #16312f;
+            text-align: left;
+            margin-left: 25px;
+            line-height: 25px;
+            margin-bottom: 15px;
+        }
+    }
+
+    .links{
+        display: flex;
+        width: 100px;
+        margin-bottom: 25px;
+        margin-left: 25px;
+        justify-content: space-around;
+
+        a:hover{
+            opacity: 0.5;
+        }
+    }
+    .block-team:hover .window{
+        visibility: visible;
+       
+    }
+}
+@media(min-width:768px) {
+    .container {
+        max-width: 720px;
+    }
+    @include colsm();
+
+    .block-team{
+        width: 100%;
+
+        img{
+            width: 100%;
+        }
+       position: relative;
+       
+    }
+
+    .window{
+        position: absolute;
+        top:155px;
+        left: 15px;
+        right: 15px;
+        background-color:$color-main ;
+        text-align: center;
+        box-shadow: 3px 6px 16px rgba(20, 20, 21,  18%);
+       visibility: hidden;
+
+        .team-name {
+            
+            h1{
+            font-family: 'Merriweather', serif;
+            font-size: 20px;
+            font-weight: bold;
+            line-height: 85px;
+            display: inline-block;
+            color: #2b3231;
+        }
+        span{
+            
+         font-weight: normal;
+           color: #767776; 
+           font-family: 'Merriweather', serif;
+           font-style: italic;
+        }
+        }
+        .team-desc{
+            font-size: 16px;
+            font-weight: normal;
+            font-family: 'Raleway',serif;
+            color: #16312f;
+            text-align: left;
+            margin-left: 25px;
+            line-height: 25px;
+            margin-bottom: 15px;
+        }
+    }
+
+    .links{
+        display: flex;
+        width: 100px;
+        margin-bottom: 25px;
+        margin-left: 25px;
+        justify-content: space-around;
+
+        a:hover{
+            opacity: 0.5;
+        }
+    }
+    .block-team:hover .window{
+        visibility: visible;
+       
+    }
+}
+
+@media(min-width:992px){
+    .container {
+        max-width: 960px;
+    }
+    @include colmd();
+    .block-team{
+        width: 100%;
+
+        img{
+            width: 100%;
+        }
+       position: relative;
+       
+    }
+
+    .window{
+        position: absolute;
+        top:100px;
+        left: 15px;
+        right: 15px;
+        background-color:$color-main ;
+        text-align: center;
+        box-shadow: 3px 6px 16px rgba(20, 20, 21,  18%);
+       visibility: hidden;
+
+        .team-name {
+            
+            h1{
+            font-family: 'Merriweather', serif;
+            font-size: 20px;
+            font-weight: bold;
+            line-height: 85px;
+            display: inline-block;
+            color: #2b3231;
+        }
+        span{
+            
+         font-weight: normal;
+           color: #767776; 
+           font-family: 'Merriweather', serif;
+           font-style: italic;
+        }
+        }
+        .team-desc{
+            font-size: 16px;
+            font-weight: normal;
+            font-family: 'Raleway',serif;
+            color: #16312f;
+            text-align: left;
+            margin-left: 25px;
+            line-height: 25px;
+            margin-bottom: 15px;
+        }
+    }
+
+    .links{
+        display: flex;
+        width: 100px;
+        margin-bottom: 25px;
+        margin-left: 25px;
+        justify-content: space-around;
+
+        a:hover{
+            opacity: 0.5;
+        }
+    }
+    .block-team:hover .window{
+        visibility: visible;
+       
+    }
+}
+@media(min-width:1200px){
+  
+    .container {
+    max-width: 1170px;
+    }
+    @include colmd();
+    .block-team{
+        width: 100%;
+
+        img{
+            width: 100%;
+        }
+       position: relative;
+       
+    }
+
+    .window{
+        position: absolute;
+        top:155px;
+        left: 15px;
+        right: 15px;
+        background-color:$color-main ;
+        text-align: center;
+        box-shadow: 3px 6px 16px rgba(20, 20, 21,  18%);
+       visibility: hidden;
+
+        .team-name {
+            
+            h1{
+            font-family: 'Merriweather', serif;
+            font-size: 20px;
+            font-weight: bold;
+            line-height: 85px;
+            display: inline-block;
+            color: #2b3231;
+        }
+        span{
+            
+         font-weight: normal;
+           color: #767776; 
+           font-family: 'Merriweather', serif;
+           font-style: italic;
+        }
+        }
+        .team-desc{
+            font-size: 16px;
+            font-weight: normal;
+            font-family: 'Raleway',serif;
+            color: #16312f;
+            text-align: left;
+            margin-left: 25px;
+            line-height: 25px;
+            margin-bottom: 15px;
+        }
+    }
+
+    .links{
+        display: flex;
+        width: 100px;
+        margin-bottom: 25px;
+        margin-left: 25px;
+        justify-content: space-around;
+
+        a:hover{
+            opacity: 0.5;
+        }
+    }
+    .block-team:hover .window{
+        visibility: visible;
+       
+    }
+}

@@ -14,3 +14,22 @@ mobileMenu.addEventListener("click",function(){
 $('.slider').slick({
     dots : true,
 })
+
+let blockText = document.querySelectorAll(".block-text")
+
+let hiddenBlock = document.querySelectorAll(".hidden-block")
+
+
+let btnKnow = document.querySelectorAll(".btn-know")
+
+btnKnow.forEach(btn =>{
+    btn.addEventListener("click",showHiddenBlock)
+})
+function showHiddenBlock (){
+    hiddenBlock.classList.add("show")
+    hiddenBlock.classList.remove("hide")
+}
+
+function closeBlockText (){
+    blockText.classList.add("hide")
+}

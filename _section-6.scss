@@ -1,0 +1,37 @@
+@media(max-width:767px){
+    .container {
+        width: 100%;
+    }
+    @include colxs();
+    img{
+        width: 100%;
+    }
+}
+@media(min-width:768px) {
+    .container {
+        max-width: 720px;
+    }
+    @include colsm();
+    img{
+        width: 100%;
+    }
+}
+@media(min-width:992px){
+    .container {
+        max-width: 960px;
+    }
+    @include colmd();
+    img{
+        width: 100%;
+    }
+}
+@media(min-width:1200px){
+  
+    .container {
+    max-width: 1170px;
+    }
+    @include colmd();
+    img{
+        width: 100%;
+    }
+}

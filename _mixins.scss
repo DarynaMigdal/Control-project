@@ -1,25 +1,73 @@
-@mixin col() {
-    .col-xs-12 , 
-    .col-sm-12,
+@mixin colxs() {
+    .col-xs-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    } 
+    .col-xs-10
+    {
+        flex: 0 0 83.33333%;
+        max-width: 83.33333%;
+    }
+    .col-xs-6{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@mixin colsm (){
+    .col-sm-12{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+ 
+    .col-sm-10{
+        flex: 0 0 83.33333%;
+        max-width: 83.33333%;
+    }
+    .col-sm-5{
+        flex: 0 0 41.66666%;
+        max-width: 41.66666%;
+    }
+    .col-sm-6{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    
+    .col-sm-2{
+        flex: 0 0 16.66666%;
+        max-width: 16.66666%;
+    }
+    .col-sm-7{
+        flex: 0 0 58%;
+        max-width: 58%;
+    }
+
+}
+    @mixin colmd (){
+
     .col-md-12{
         flex: 0 0 100%;
         max-width: 100%;
     }
-    .col-xs-10,
-    .col-sm-10,
+    
     .col-md-10{
         flex: 0 0 83.33333%;
         max-width: 83.33333%;
     }
-    .col-xs-6,
-    .col-sm-6,
+    .col-md-7{
+        flex: 0 0 58%;
+        max-width: 58%;
+    }
+    
     .col-md-6{
         flex: 0 0 50%;
         max-width: 50%;
     }
     
-    .col-xs-2,
-    .col-sm-2,
+    .col-md-5{
+        flex: 0 0 42%;
+        max-width: 42%;
+    }
     .col-md-2{
         flex: 0 0 16.66666%;
         max-width: 16.66666%;
@@ -33,4 +81,6 @@
         max-width: 25%;
     }
     
-}
+    }
+    
+    

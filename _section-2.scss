@@ -1,50 +1,71 @@
-// @media(max-width:767px){
-
-// @include col ();
-// .banner{
-//     display: flex;
-//     justify-content: space-evenly;
-   
-// }
-// .banner>img{
-//     width: 360px;
-//     height: 360px;
-// }
-// }
-// @media(min-width:768px){
-//     @include col ();
-//     .banner{
-//         display: flex;
-//         justify-content: space-evenly;
+@media(max-width:767px){
+.container{
+    width: 100%;
+}
+@include colxs();
+    .banner{
+     display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+    align-items: center;
+    width: 100%;
+    img{
+        width: 100%;
+    }
+}
+}
+@media(min-width:768px){
+    .container {
+        max-width: 720px;
+    }
+    @include colsm();
+    .banner{
+        display: flex;
+        justify-content: center;
        
-//     }
-//     .banner>img{
-//         width: 360px;
-//         height: 360px;
-//     }
-// }
+    }
+    
+    .banner{
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 10px;
+        width: 100%;
+        img{
+            width: 100%;
+        }
+    }
+   
+}
 
 @media(min-width:992px){
     .container {
         max-width: 960px;
     }
-    @include col ();
-    // .banner{
-    //     display: flex;
-    //     justify-content: space-evenly;
-       
-    // }
+    @include colmd();
+    .banner{
+    
+    margin-bottom: 10px;
+      
+       width: 100%;
+       img{
+           width: 100%;
+       }
+    }
     
 }
 @media(min-width:1200px){
     .container {
         max-width: 1170px;
     }
-    @include col ()
-    // .banner{
-    //     display: flex;
-    //     justify-content: space-evenly;
-       
-    // }
+    @include colmd();
+    .banner{
+        
+        margin-bottom: 15px;
+        width: 100%;
+        img{
+            width: 100%;
+        }
+    }
+    
    
 }
