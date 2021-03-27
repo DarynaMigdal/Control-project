@@ -1482,6 +1482,11 @@ body {
     color: black;
     display: none;
   }
+  .hidden-block button {
+    border: none;
+    color: grey;
+    background-color: transparent;
+  }
   .show {
     display: block;
   }
@@ -1606,6 +1611,11 @@ body {
     background-color: #77efe5;
     color: black;
     display: none;
+  }
+  .hidden-block button {
+    border: none;
+    color: grey;
+    background-color: transparent;
   }
   .show {
     display: block;
@@ -1743,6 +1753,11 @@ body {
     color: black;
     display: none;
   }
+  .hidden-block button {
+    border: none;
+    color: grey;
+    background-color: transparent;
+  }
   .show {
     display: block;
   }
@@ -1878,6 +1893,14 @@ body {
     background-color: #77efe5;
     color: black;
     display: none;
+    padding: 105px 15px;
+  }
+  .hidden-block button {
+    border: none;
+    color: grey;
+    background-color: transparent;
+    margin-top: 55px;
+    margin-left: 55px;
   }
   .show {
     display: block;

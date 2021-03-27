@@ -87,6 +87,11 @@
         background-color: $color-main;
         color: black;
         display: none;
+        button{
+            border: none;
+            color:grey;
+            background-color: transparent;
+        }
     }
     .show{
         display: block;
@@ -183,6 +188,11 @@
         background-color: $color-main;
         color: black;
         display: none;
+        button{
+            border: none;
+            color:grey;
+            background-color: transparent;
+        }
     }
     .show{
         display: block;
@@ -280,6 +290,11 @@
         background-color: $color-main;
         color: black;
         display: none;
+        button{
+            border: none;
+            color:grey;
+            background-color: transparent;
+        }
     }
     .show{
         display: block;
@@ -380,6 +395,14 @@
         background-color: $color-main;
         color: black;
         display: none;
+        padding: 105px 15px;
+        button{
+            border: none;
+            color:grey;
+            background-color: transparent;
+            margin-top: 55px;
+            margin-left: 55px;
+        }
         
     }
     .show{
