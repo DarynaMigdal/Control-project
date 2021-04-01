@@ -16,7 +16,7 @@
     }
     .block-text-3{
     
-        
+        position: relative;
         margin-bottom: 25px;
         margin-left: 12px;
     }
@@ -36,7 +36,7 @@
     }
     .head-phrase{
         font-family: 'Merriweather', serif;
-        font-size: 15px;
+        font-size: 11px;
         font-weight: bold;
         text-transform: uppercase;
         line-height: 35px;
@@ -46,8 +46,8 @@
     .phrase{
         font-family: 'Raleway', serif;
         font-weight: normal;
-        font-size: 12px;
-        line-height: 25px;
+        font-size: 10px;
+        line-height: 15px;
         
     }
     .opacity{
@@ -90,10 +90,17 @@
         background-color: $color-main;
         color: black;
         display: none;
+        padding: 65px 15px ;
         button{
             border: none;
             color:grey;
             background-color: transparent;
+            margin-top: 30px;
+            margin-left: 15px;
+            font-size: 25px;
+            cursor: pointer;
+
+            
         }
     }
     .show{
@@ -113,14 +120,14 @@
         width: 100%;
         position: relative;
         margin-bottom: 25px;
-        height: 252px;
+        height: 262px;
         img{
             width: 100%;
         }
     }
     
     .block-text-3{
-        height: 220px;
+        height: 230px;
         
         margin-bottom: 25px;
         img{
@@ -195,10 +202,17 @@
         background-color: $color-main;
         color: black;
         display: none;
+        padding: 75px 15px ;
         button{
             border: none;
             color:grey;
             background-color: transparent;
+            margin-top: 10px;
+            margin-left: 15px;
+            font-size: 25px;
+            cursor: pointer;
+
+            
         }
     }
     .show{
@@ -299,10 +313,17 @@
         background-color: $color-main;
         color: black;
         display: none;
+        padding: 105px 15px ;
         button{
             border: none;
             color:grey;
             background-color: transparent;
+            margin-top: 30px;
+            margin-left: 15px;
+            font-size: 25px;
+            cursor: pointer;
+
+            
         }
     }
     .show{

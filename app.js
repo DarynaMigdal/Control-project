@@ -27,6 +27,7 @@ let hiddenBlock = document.querySelectorAll(".hidden-block")
 let btnClose = document.querySelectorAll(".btn-close")
 
 
+
 btnKnow.forEach(btn =>{
     btn.addEventListener("click",showHiddenBlock)
 })

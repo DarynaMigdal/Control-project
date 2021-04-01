@@ -3,6 +3,7 @@
 @media(max-width:767px){
     .container {
         width: 100%;
+        margin-bottom: 25px;
     }
     @include colxs();
     .block-team{
@@ -74,11 +75,13 @@
 @media(min-width:768px) {
     .container {
         max-width: 720px;
+        margin-bottom: 75px;
     }
     @include colsm();
 
     .block-team{
         width: 100%;
+       
 
         img{
             width: 100%;
@@ -147,11 +150,12 @@
 @media(min-width:992px){
     .container {
         max-width: 960px;
+        margin-bottom: 100px;
     }
     @include colmd();
     .block-team{
         width: 100%;
-
+        
         img{
             width: 100%;
         }
@@ -219,6 +223,7 @@
   
     .container {
     max-width: 1170px;
+    margin-bottom: 100px;
     }
     @include colmd();
     .block-team{
