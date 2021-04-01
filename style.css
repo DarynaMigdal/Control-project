@@ -1415,9 +1415,11 @@ body {
     width: 100%;
   }
   .block-text-3 {
-    position: relative;
     margin-bottom: 25px;
     margin-left: 12px;
+  }
+  .visible {
+    position: relative;
   }
   .block-text img {
     width: 100%;
@@ -1546,11 +1548,13 @@ body {
   }
   .block-text-3 {
     height: 220px;
-    position: relative;
     margin-bottom: 25px;
   }
   .block-text-3 img {
     width: 100%;
+  }
+  .visible {
+    position: relative;
   }
   .text-content {
     position: absolute;
@@ -1687,11 +1691,13 @@ body {
   }
   .block-text-3 {
     height: 310px;
-    position: relative;
     margin-bottom: 25px;
   }
   .block-text-3 img {
     width: 100%;
+  }
+  .visible {
+    position: relative;
   }
   .text-content {
     position: absolute;
@@ -1819,7 +1825,7 @@ body {
     max-width: 25%;
   }
   .block-text {
-    height: 430px;
+    height: 432px;
     position: relative;
     margin-bottom: 25px;
   }
@@ -1828,11 +1834,13 @@ body {
   }
   .block-text-3 {
     height: 380px;
-    position: relative;
     margin-bottom: 25px;
   }
   .block-text-3 img {
     width: 100%;
+  }
+  .visible {
+    position: relative;
   }
   .text-content {
     position: absolute;
@@ -1899,8 +1907,10 @@ body {
     border: none;
     color: grey;
     background-color: transparent;
-    margin-top: 55px;
-    margin-left: 55px;
+    margin-top: 30px;
+    margin-left: 15px;
+    font-size: 25px;
+    cursor: pointer;
   }
   .show {
     display: block;

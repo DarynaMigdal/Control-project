@@ -15,25 +15,50 @@ $('.slider').slick({
     dots : true,
 })
 
-// let blockText = document.querySelectorAll(".block-text")
 
-let hiddenBlock = document.querySelectorAll(".hidden-block")
-console.log(hiddenBlock)
+
+
+let text = document.querySelectorAll(".text-content")
 
 let btnKnow = document.querySelectorAll(".btn-know")
-console.log(btnKnow)
+
+let hiddenBlock = document.querySelectorAll(".hidden-block")
+
+let btnClose = document.querySelectorAll(".btn-close")
+
 
 btnKnow.forEach(btn =>{
     btn.addEventListener("click",showHiddenBlock)
 })
 
+btnClose.forEach(btn =>{
+   btn.addEventListener("click",closeHiddenBlock)
+})
+
 function showHiddenBlock (){
-    hiddenBlock.classList.add("show")
-    hiddenBlock.classList.remove("hide")
+    hiddenBlock.forEach(block=>{
+    block.classList.add("show")
+    block.classList.remove("hide")
+    
+    })
+    text.forEach(bl=>{
+        bl.classList.add("hide")
+       bl.classList.remove("show")
+    })
+    
+}
+function closeHiddenBlock(){
+    hiddenBlock.forEach(block=>{
+        block.classList.add("hide")
+        block.classList.remove("show")
+        
+        })
+        text.forEach(bl=>{
+            bl.classList.add("show")
+            bl.classList.remove("hide")
+        })
 }
 
-function closeBlockText (){
-    blockText.classList.add("hide")
-}
+
 
 

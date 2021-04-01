@@ -16,9 +16,12 @@
     }
     .block-text-3{
     
-        position: relative;
+        
         margin-bottom: 25px;
         margin-left: 12px;
+    }
+    .visible{
+        position: relative;
     }
     .block-text img{
         width: 100%;
@@ -118,12 +121,16 @@
     
     .block-text-3{
         height: 220px;
-        position: relative;
+        
         margin-bottom: 25px;
         img{
             width: 100%;
         }
-         }
+    }
+    .visible{
+        position: relative;
+    }
+        
     .text-content{
         position: absolute;
         top: 25px;
@@ -217,7 +224,7 @@
     }
     .block-text-3{
         height: 310px;
-        position: relative;
+        
         margin-bottom: 25px;
          
         img{
@@ -225,7 +232,9 @@
         }
     }
     
-
+    .visible{
+        position: relative;
+    }
     .text-content{
         position: absolute;
         top: 55px;
@@ -311,7 +320,7 @@
     @include colmd();
 
      .block-text {
-        height: 430px;
+        height: 432px;
         position: relative;
         margin-bottom: 25px;
          
@@ -321,7 +330,6 @@
      }
      .block-text-3{
         height: 380px;
-        position: relative;
         margin-bottom: 25px;
          
         img{
@@ -329,6 +337,9 @@
         }
     
     
+     }
+     .visible{
+         position: relative;
      }
     .text-content{
         position: absolute;
@@ -395,16 +406,23 @@
         background-color: $color-main;
         color: black;
         display: none;
-        padding: 105px 15px;
+        padding: 105px 15px ;
+        
+
         button{
             border: none;
             color:grey;
             background-color: transparent;
-            margin-top: 55px;
-            margin-left: 55px;
+            margin-top: 30px;
+            margin-left: 15px;
+            font-size: 25px;
+            cursor: pointer;
+
+            
         }
         
     }
+
     .show{
         display: block;
     }
